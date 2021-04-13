@@ -17,7 +17,7 @@ const resolvers = {
         books: ({ _id: id }) => Object.values(books).filter(book => book.writtenBy(id)),
     },
     Publisher: {
-        books: ({ _id: id }) => Object.values(books).filter(book => book.writtenBy(id)),
+        books: ({ _id: id }) => Object.values(books).filter(book => book.publishedBy(id)),
     }
 };
 

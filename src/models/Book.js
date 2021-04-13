@@ -51,7 +51,7 @@ class Book {
         return this._authors.has(authorId);
     }
 
-    writtenBy(publisherId) {
+    publishedBy(publisherId) {
         return this._publisher === publisherId;
     }
 }
