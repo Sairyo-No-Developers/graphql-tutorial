@@ -27,6 +27,18 @@ const typeDefs = gql`
         bookById(id: ID!): Book
         authorById(id: ID!): Author
         publisherById(id: ID!): Publisher
+        getRandomChuckNorrisJoke: String
+    }
+
+    input BookInput {
+        bookName: String!
+        bookAuthors: [ID!]!
+        bookPublisher: ID!
+    }
+
+    type Mutation {
+        addBook(bookInput: BookInput): Book
+        deleteBook(id: ID!): Book
     }
 `
 
