@@ -37,7 +37,7 @@ const typeDefs = gql`
     }
 
     type Mutation {
-        addBook(bookInput: BookInput): Book
+        addBook(bookInput: BookInput!): Book
         deleteBook(id: ID!): Book
     }
 `

@@ -33,7 +33,7 @@ const chuckNorrisJokes = [
     "Chuck Norris does not use spell check. If he happens to misspell a word, Oxford will change the spelling.",
     "Some kids pee their name in the snow. Chuck Norris can pee his name into concrete.",
     "Chuck Norris' calendar goes straight from March 31st to April 2nd, because no one fools Chuck Norris.",
-    "Chuck Norris counted to infinity… twice.",
+    "Chuck Norris counted to infinity... twice.",
     "Chuck Norris can speak Braille.",
     "Chuck Norris can have both feet on the ground and kick butt at the same time.",
     "Chuck Norris can do a wheelie on a unicycle.",
